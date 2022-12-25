@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Galaxon.Calendars</RootNamespace>
+        <Company>Astro Multimedia</Company>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Galaxon.Astronomy.Algorithms">
+        <HintPath>..\..\Astronomy\Algorithms\bin\Debug\net7.0\Galaxon.Astronomy.Algorithms.dll</HintPath>
+      </Reference>
+      <Reference Include="Galaxon.Astronomy.Repository">
+        <HintPath>..\..\Astronomy\Repository\bin\Debug\net7.0\Galaxon.Astronomy.Repository.dll</HintPath>
+      </Reference>
+      <Reference Include="Galaxon.Core.Time">
+        <HintPath>..\..\Core\Time\bin\Debug\net7.0\Galaxon.Core.Time.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+    </ItemGroup>
+
+</Project>
