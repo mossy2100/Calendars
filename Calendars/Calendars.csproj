@@ -15,8 +15,8 @@
       <Reference Include="Galaxon.Astronomy.Repository">
         <HintPath>..\..\Astronomy\Repository\bin\Debug\net7.0\Galaxon.Astronomy.Repository.dll</HintPath>
       </Reference>
-      <Reference Include="Galaxon.Core.Time">
-        <HintPath>..\..\Core\Time\bin\Debug\net7.0\Galaxon.Core.Time.dll</HintPath>
+      <Reference Include="Galaxon.Core">
+        <HintPath>..\..\Core\Core\bin\Debug\net7.0\Galaxon.Core.dll</HintPath>
       </Reference>
     </ItemGroup>
 

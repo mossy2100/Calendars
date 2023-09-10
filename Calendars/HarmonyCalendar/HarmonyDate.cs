@@ -77,7 +77,7 @@ public class HarmonyDate : IEarthDate
         }
 
         // Get the day of the year.
-        int dayOfYear = date.Subtract(firstDayOfYear).Days + 1;
+        int dayOfYear = (int)date.Subtract(firstDayOfYear) + 1;
 
         return (year, dayOfYear);
     }
