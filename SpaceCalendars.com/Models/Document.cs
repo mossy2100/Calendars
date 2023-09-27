@@ -18,14 +18,14 @@ public class Document
     public bool Published { get; set; }
 
     public string? Content { get; set; } = "";
-    
+
     // Link to containing folder.
     [Display(Name = "Folder")]
     public int? FolderId { get; set; }
 
     // Navigation property. The folder containing this document.
     public Document? Folder { get; set; }
-    
+
     // Navigation property. If this is a folder, the documents it contains.
     public List<Document>? Documents { get; set; }
 
@@ -33,13 +33,13 @@ public class Document
 
     [NotMapped]
     public string? PathAlias { get; set; }
-    
+
     [NotMapped]
     public bool? Expand { get; set; }
-    
+
     [NotMapped]
     public string? IconPath { get; set; }
-    
+
     [NotMapped]
     public int Level { get; set; }
 }
